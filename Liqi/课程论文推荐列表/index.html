@@ -1,0 +1,750 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>《网络空间安全基础与前沿》课程论文阅读推荐列表</title><link href='https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+
+
+/* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
+
+@include-when-export url(https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+
+/* =========== */
+
+/* pt-serif-regular - latin */
+/* pt-serif-italic - latin */
+/* pt-serif-700 - latin */
+/* pt-serif-700italic - latin */
+:root {
+	--active-file-bg-color: #dadada;
+	--active-file-bg-color: rgba(32, 43, 51, 0.63);
+	--active-file-text-color: white;
+	--bg-color: #f3f2ee;
+	--text-color: #1f0909;
+	--control-text-color: #444;
+	--rawblock-edit-panel-bd: #e5e5e5;
+
+	--select-text-bg-color: rgba(32, 43, 51, 0.63);
+  --select-text-font-color: white;
+}
+
+pre {
+	--select-text-bg-color: #36284e;
+	--select-text-font-color: #fff;
+}
+
+html {
+	font-size: 16px;
+}
+
+html, body {
+	background-color: #f3f2ee;
+	font-family: "PT Serif", 'Times New Roman', Times, serif;
+	color: #1f0909;
+	line-height: 1.5em;
+}
+
+/*#write {
+	overflow-x: auto;
+    max-width: initial;
+	padding-left: calc(50% - 17em);
+    padding-right: calc(50% - 17em);
+}
+
+@media (max-width: 36em) {
+ 	#write {
+ 		padding-left: 1em;
+    	padding-right: 1em;
+ 	}
+}*/
+
+#write {
+	max-width: 40em;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+			max-width: 914px;
+	}
+}
+
+ol li {
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+ul li {
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* styles */
+
+/* ====== */
+
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.875em;
+	/*30 / 16*/
+	line-height: 1.6em;
+	/* 48 / 30*/
+	margin-top: 2em;
+}
+h2,
+h3 {
+	font-size: 1.3125em;
+	/*21 / 16*/
+	line-height: 1.15;
+	/*24 / 21*/
+	margin-top: 2.285714em;
+	/*48 / 21*/
+	margin-bottom: 1.15em;
+	/*24 / 21*/
+}
+h3 {
+	font-weight: normal;
+}
+h4 {
+	font-size: 1.125em;
+	/*18 / 16*/
+	margin-top: 2.67em;
+	/*48 / 18*/
+}
+h5,
+h6 {
+	font-size: 1em;
+	/*16*/
+}
+h1 {
+	border-bottom: 1px solid;
+	margin-bottom: 1.875em;
+	padding-bottom: 0.8125em;
+}
+/* links */
+
+a {
+	text-decoration: none;
+	color: #065588;
+}
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+/* block spacing */
+
+p,
+blockquote,
+.md-fences {
+	margin-bottom: 1.5em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 1.5em;
+}
+/* blockquote */
+
+blockquote {
+	font-style: italic;
+	border-left: 5px solid;
+	margin-left: 2em;
+	padding-left: 1em;
+}
+/* lists */
+
+ul,
+ol {
+	margin: 0 0 1.5em 1.5em;
+}
+/* tables */
+.md-meta,.md-before, .md-after {
+	color:#999;
+}
+
+table {
+	margin-bottom: 1.5em;
+	/*24 / 16*/
+	font-size: 1em;
+	/* width: 100%; */
+}
+thead th,
+tfoot th {
+	padding: .25em .25em .25em .4em;
+	text-transform: uppercase;
+}
+th {
+	text-align: left;
+}
+td {
+	vertical-align: top;
+	padding: .25em .25em .25em .4em;
+}
+
+code,
+.md-fences {
+	background-color: #dadada;
+}
+
+code {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.md-fences {
+	margin-left: 2em;
+	margin-bottom: 3em;
+	padding-left: 1ch;
+	padding-right: 1ch;
+}
+
+pre,
+code,
+tt {
+	font-size: .875em;
+	line-height: 1.714285em;
+}
+/* some fixes */
+
+h1 {
+	line-height: 1.3em;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+}
+
+p + ul,
+p + ol{
+	margin-top: .5em;
+}
+
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul,
+h3 + ol,
+h4 + ol,
+h5 + ol,
+h6 + ol {
+	margin-top: .5em;
+}
+
+li > ul,
+li > ol {
+	margin-top: inherit;
+	margin-bottom: 0;
+}
+
+li ol>li {
+	list-style-type: lower-alpha;
+}
+
+li li ol>li{
+	list-style-type: lower-roman;
+}
+
+h2,
+h3 {
+	margin-bottom: .75em;
+}
+hr {
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid;
+	border-left: none;
+}
+h1 {
+	border-color: #c5c5c5;
+}
+blockquote {
+	border-color: #bababa;
+	color: #656565;
+}
+
+blockquote ul,
+blockquote ol {
+	margin-left:0;
+}
+
+.ty-table-edit {
+	background-color: transparent;
+}
+thead {
+	background-color: #dadada;
+}
+tr:nth-child(even) {
+	background: #e8e7e7;
+}
+hr {
+	border-color: #c5c5c5;
+}
+.task-list{
+	padding-left: 1rem;
+}
+
+.md-task-list-item {
+	padding-left: 1.5rem;
+	list-style-type: none;
+}
+
+.md-task-list-item > input:before {
+	content: '\221A';
+	display: inline-block;
+	width: 1.25rem;
+  	height: 1.6rem;
+	vertical-align: middle;
+	text-align: center;
+	color: #ddd;
+	background-color: #F3F2EE;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before{
+	color: inherit;
+}
+
+#write pre.md-meta-block {
+	min-height: 1.875rem;
+	color: #555;
+	border: 0px;
+	background: transparent;
+	margin-top: -4px;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+.md-image>.md-meta {
+	color: #9B5146;
+}
+
+.md-image>.md-meta{
+	font-family: Menlo, 'Ubuntu Mono', Consolas, 'Courier New', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', serif;
+}
+
+
+#write>h3.md-focus:before{
+	left: -1.5rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h4.md-focus:before{
+	left: -1.5rem;
+	top: .25rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h5.md-focus:before{
+	left: -1.5rem;
+	top: .0.3125rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h6.md-focus:before{
+	left: -1.5rem;
+	top: 0.3125rem;
+	color:#999;
+	border-color:#999;
+}
+
+.md-toc:focus .md-toc-content{
+	margin-top: 19px;
+}
+
+.md-toc-content:empty:before{
+	color: #065588;
+}
+.md-toc-item {
+	color: #065588;
+}
+#write div.md-toc-tooltip {
+	background-color: #f3f2ee;
+}
+
+#typora-sidebar {
+	background-color: #f3f2ee;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
+  	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
+}
+
+.pin-outline #typora-sidebar {
+	background: inherit;
+	box-shadow: none;
+	border-right: 1px dashed;
+}
+
+.pin-outline #typora-sidebar:hover .outline-title-wrapper {
+	border-left:1px dashed;
+}
+
+.outline-item:hover {
+  background-color: #dadada;
+  border-left: 28px solid #dadada;
+  border-right: 18px solid #dadada;
+}
+
+.typora-node .outline-item:hover {
+  	border-right: 28px solid #dadada;
+}
+
+.outline-expander:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  font-size:14px;
+  top: 1px;
+}
+
+.outline-expander:hover:before,
+.outline-item-open>.outline-item>.outline-expander:before {
+  content: "\f0d7";
+}
+
+.modal-content {
+	background-color: #f3f2ee;
+}
+
+.auto-suggest-container ul li {
+	list-style-type: none;
+}
+
+/** UI for electron */
+
+.megamenu-menu,
+#top-titlebar, #top-titlebar *,
+.megamenu-content {
+	background: #f3f2ee;
+	color: #1f0909;
+}
+
+.megamenu-menu-header {
+	border-bottom: 1px dashed #202B33;
+}
+
+.megamenu-menu {
+	box-shadow: none;
+	border-right: 1px dashed;
+}
+
+header, .context-menu, .megamenu-content, footer {
+	font-family: "PT Serif", 'Times New Roman', Times, serif;
+    color: #1f0909;
+}
+
+#megamenu-back-btn {
+	color: #1f0909;
+	border-color: #1f0909;
+}
+
+.megamenu-menu-header #megamenu-menu-header-title:before {
+	color: #1f0909;
+}
+
+.megamenu-menu-list li a:hover, .megamenu-menu-list li a.active {
+	color: inherit;
+	background-color: #e8e7df;
+}
+
+.long-btn:hover {
+	background-color: #e8e7df;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: transparent !important;
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(2) {
+    color: inherit;
+}
+
+.megamenu-menu-panel .btn {
+	background-color: #D2D1D1;
+}
+
+.btn-default {
+	background-color: transparent;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn,
+.ty-show-word-count #footer-word-count {
+	background: #c7c5c5;
+}
+
+#typora-quick-open {
+    background-color: inherit;
+}
+
+.md-diagram-panel {
+	margin-top: 8px;
+}
+
+.file-list-item-file-name {
+	font-weight: initial;
+}
+
+.file-list-item-summary {
+	opacity: 1;
+}
+
+.file-list-item {
+	color: #777;
+}
+
+.file-list-item.active {
+	background-color: inherit;
+	color: black;
+}
+
+.ty-side-sort-btn.active {
+	background-color: inherit;
+}
+
+.file-list-item.active .file-list-item-file-name  {
+	font-weight: bold;
+}
+
+.file-list-item{
+    opacity:1 !important;
+}
+
+.file-library-node.active>.file-node-background{
+	background-color: rgba(32, 43, 51, 0.63);
+	background-color: var(--active-file-bg-color);
+}
+
+.file-tree-node.active>.file-node-content{
+	color: white;
+	color: var(--active-file-text-color);
+}
+
+.md-task-list-item>input {
+	margin-left: -1.7em;
+	margin-top: calc(1rem - 12px);
+}
+
+input {
+	border: 1px solid #aaa;
+}
+
+.megamenu-menu-header #megamenu-menu-header-title,
+.megamenu-menu-header:hover, 
+.megamenu-menu-header:focus {
+	color: inherit;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+}
+
+/* https://github.com/typora/typora-issues/issues/2046 */
+.os-windows-7 strong,
+.os-windows-7 strong  {
+	font-weight: 760;
+}
+
+.ty-preferences .btn-default {
+	background: transparent;
+}
+
+.ty-preferences .window-header {
+	border-bottom: 1px dashed #202B33;
+	box-shadow: none;
+}
+
+#sidebar-loading-template, #sidebar-loading-template.file-list-item {
+	color: #777;
+}
+
+.searchpanel-search-option-btn.active {
+	background: #777;
+	color: white;
+}
+
+
+</style>
+</head>
+<body class='typora-export'>
+<div id='write'  class=''><h1><a name="网络空间安全基础与前沿课程论文阅读推荐列表" class="md-header-anchor"></a><span>《网络空间安全基础与前沿》课程论文阅读推荐列表</span></h1><h2><a name="1-密码学及应用" class="md-header-anchor"></a><span>1. 密码学及应用</span></h2><h3><a name="专题-a密码安全协议" class="md-header-anchor"></a><span>专题 a：密码安全协议</span></h3><ul><li><span>Blanchet B, Cheval V and Cortier V. </span><a href='./papers/1a/Proverif with Lemmas, Induction, Fast Subsumption, and Much More.pdf'><strong><span>Proverif with Lemmas, Induction, Fast Subsumption, and Much More</span></strong></a><span>. S&amp;P, 2022.</span></li><li><span>Dong X, Qin L, Sun S, et al. </span><a href='./papers/1a/Key Guessing Strategies for Linear Key-Schedule Algorithms in Rectangle Attacks.pdf'><strong><span>Key Guessing Strategies for Linear Key-Schedule Algorithms in Rectangle Attacks</span></strong></a><span>. Eurocrypt, 2022.</span></li><li><span>Bao Z, Dong X, Guo J, et al. </span><a href='./papers/1a/Automatic Search of Meet-in-the-Middle Preimage Attacks on AES-like Hashing.pdf'><strong><span>Automatic Search of Meet-in-the-Middle Preimage Attacks on AES-like Hashing</span></strong></a><span>. Eurocrypt, 2021.</span></li><li><span>Dong X, Hua J, Sun S, et al. </span><a href='./papers/1a/Meet-in-the-Middle Attacks Revisited Key-Recovery, Collision, and Preimage Attacks.pdf'><strong><span>Meet-in-the-Middle Attacks Revisited: Key-Recovery, Collision, and Preimage Attacks</span></strong></a><span>. Crypto, 2021.</span></li><li><span>Barthe G, Cauligi S, Grégoire B, et al. </span><a href='./papers/1a/High-Assurance Cryptography in the Spectre Era.pdf'><strong><span>High-Assurance Cryptography in the Spectre Era</span></strong></a><span>. S&amp;P, 2021.</span></li><li><span>Almeida JB, Barbosa M, Barthe G, et al. </span><a href='./papers/1a/The Last Mile High-Assurance and High-Speed Cryptographic Implementations.pdf'><strong><span>The Last Mile: High-Assurance and High-Speed Cryptographic Implementations</span></strong></a><span>. S&amp;P, 2020.</span></li><li><span>Almeida JB, Baritel-Ruet C, Barbosa M, et al. </span><a href='./papers/1a/Machine-Checked Proofs for Cryptographic Standards Indifferentiability of Sponge and Secure High-Assurance Implementations of SHA-3.pdf'><strong><span>Machine-Checked Proofs for Cryptographic Standards: Indifferentiability of Sponge and Secure High-Assurance Implementations of SHA-3</span></strong></a><span>. CCS, 2019.</span></li><li><span>Almeida JB, Barbosa M, Barthe G, et al. </span><a href='./papers/1a/Jasmin High-Assurance and High-Speed Cryptography.pdf'><strong><span>Jasmin: High-Assurance and High-Speed Cryptography</span></strong></a><span>. CCS, 2017.</span></li></ul><h3><a name="专题-b数据安全与云计算安全" class="md-header-anchor"></a><span>专题 b：数据安全与云计算安全</span></h3><ul><li><span>Sun SF, Steinfeld R, Lai S, et al. </span><a href='./papers/1b/Practical Non-Interactive Searchable Encryption with Forward and Backward Privacy.pdf'><strong><span>Practical Non-Interactive Searchable Encryption with Forward and Backward Privacy</span></strong></a><span>. NDSS, 2021.</span></li><li><span>Ge C, Susilo W, Baek J, et al. </span><a href='./papers/1b/A Verifiable and Fair Attribute-based Proxy Re-Encryption Scheme for Data Sharing in Clouds.pdf'><strong><span>A Verifiable and Fair Attribute-based Proxy Re-Encryption Scheme for Data Sharing in Clouds</span></strong></a><span>. TDSC, 2021.</span></li><li><span>Ge C, Susilo W, Baek J, et al. </span><a href='./papers/1b/Revocable Attribute-based Encryption with Data Integrity in Clouds.pdf'><strong><span>Revocable Attribute-based Encryption with Data Integrity in Clouds</span></strong></a><span>. TDSC, 2021.</span></li><li><span>Han D, Pan N and Li KC. </span><a href='./papers/1b/A Traceable and Revocable Ciphertext-Policy Attribute-based Encryption Scheme Based on Privacy Protection.pdf'><strong><span>A Traceable and Revocable Ciphertext-Policy Attribute-based Encryption Scheme Based on Privacy Protection</span></strong></a><span>. TDSC, 2020.</span></li><li><span>Wei J, Chen X, Huang X, et al. </span><a href='./papers/1b/RS-HABE Revocable-Storage and Hierarchical Attribute-based Access Scheme for Secure Sharing of e-Health Records in Public Cloud.pdf'><strong><span>RS-HABE: Revocable-Storage and Hierarchical Attribute-based Access Scheme for Secure Sharing of e-Health Records in Public Cloud</span></strong></a><span>. TDSC, 2019.</span></li><li><span>Wu T, Yang G, Mu Y, et al. </span><a href='./papers/1b/Privacy-Preserving Proof of Storage for the Pay-As-You-Go Business Model.pdf'><strong><span>Privacy-Preserving Proof of Storage for the Pay-As-You-Go Business Model</span></strong></a><span>. TDSC, 2019.</span></li><li><span>Sun SF, Yuan X, Liu JK, et al. </span><a href='./papers/1b/Practical Backward-Secure Searchable Encryption from Symmetric Puncturable Encryption.pdf'><strong><span>Practical Backward-Secure Searchable Encryption from Symmetric Puncturable Encryption</span></strong></a><span>. CCS, 2018.</span></li><li><span>Ghareh Chamani J, Papadopoulos D, Papamanthou C, et al. </span><a href='./papers/1b/New Constructions for Forward and Backward Private Symmetric Searchable Encryption.pdf'><strong><span>New Constructions for Forward and Backward Private Symmetric Searchable Encryption</span></strong></a><span>. CCS, 2018.</span></li><li><span>Lai S, Patranabis S, Sakzad A, et al. </span><a href='./papers/1b/Result Pattern Hiding Searchable Encryption for Conjunctive Queries.pdf'><strong><span>Result Pattern Hiding Searchable Encryption for Conjunctive Queries</span></strong></a><span>. CCS, 2018.</span></li><li><span>Armknecht F, Barman L, Bohli JM, et al. </span><a href='./papers/1b/Mirror Enabling Proofs of Data Replication and Retrievability in the Cloud.pdf'><strong><span>Mirror: Enabling Proofs of Data Replication and Retrievability in the Cloud</span></strong></a><span>. Security, 2016.</span></li></ul><h2><a name="2-系统安全" class="md-header-anchor"></a><span>2. 系统安全</span></h2><h3><a name="专题-a操作系统安全" class="md-header-anchor"></a><span>专题 a：操作系统安全</span></h3><ul><li><span>Zou X, Li G, Chen W, et al. </span><a href='./papers/2a/SyzScope Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux Kernel.pdf'><strong><span>SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux Kernel</span></strong></a><span>. Security, 2022.</span></li><li><span>Wang D, Zhang Z, Zhang H, et al. </span><a href='./papers/2a/SyzVegas Beating Kernel Fuzzing Odds with Reinforcement Learning.pdf'><strong><span>SyzVegas: Beating Kernel Fuzzing Odds with Reinforcement Learning</span></strong></a><span>. Security, 2021.</span></li><li><span>Hossain MN, Sheikhi S and Sekar R. </span><a href='./papers/2a/Combating Dependence Explosion in Forensic Analysis Using Alternative Tag Propagation Semantics.pdf'><strong><span>Combating Dependence Explosion in Forensic Analysis Using Alternative Tag Propagation Semantics</span></strong></a><span>. S&amp;P, 2020.</span></li><li><span>Song D, Hetzelt F, Kim J, et al. </span><a href='./papers/2a/Agamotto Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints.pdf'><strong><span>Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints</span></strong></a><span>. Security, 2020.</span></li><li><span>Chen W, Zou X, Li G, et al. </span><a href='./papers/2a/KOOBE Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities.pdf'><strong><span>KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities</span></strong></a><span>. Security, 2020.</span></li><li><span>Milajerdi SM, Gjomemo R, Eshete B, et al. </span><a href='./papers/2a/Holmes Real-Time APT Detection through Correlation of Suspicious Information Flows.pdf'><strong><span>Holmes: Real-Time APT Detection through Correlation of Suspicious Information Flows</span></strong></a><span>. S&amp;P, 2019.</span></li><li><span>Gens D, Schmitt S, Davi L, et al. </span><a href='./papers/2a/K-Miner Uncovering Memory Corruption in Linux.pdf'><strong><span>K-Miner: Uncovering Memory Corruption in Linux</span></strong></a><span>. NDSS, 2018.</span></li><li><span>Pailoor S, Aday A and Jana S. </span><a href='./papers/2a/MoonShine Optimizing OS Fuzzer Seed Selection with Trace Distillation.pdf'><strong><span>MoonShine: Optimizing OS Fuzzer Seed Selection with Trace Distillation</span></strong></a><span>. Security, 2018.</span></li><li><span>Wu W, Chen Y, Xu J, et al. </span><a href='./papers/2a/FUZE Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities.pdf'><strong><span>FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities</span></strong></a><span>. Security, 2018.</span></li><li><span>Pan J, Yan G and Fan X. </span><a href='./papers/2a/Digtool A Virtualization-Based Framework for Detecting Kernel Vulnerabilities.pdf'><strong><span>Digtool: A Virtualization-Based Framework for Detecting Kernel Vulnerabilities</span></strong></a><span>. Security, 2017.</span></li><li><span>Schumilo S, Aschermann C, Gawlik R, et al. </span><a href='./papers/2a/kAFL Hardware-Assisted Feedback Fuzzing for OS Kernels.pdf'><strong><span>kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels</span></strong></a><span>. Security, 2017.</span></li><li><span>Azab AM, Swidowski K, Bhutkar R, et al. </span><a href='./papers/2a/SKEE A Lightweight Secure Kernel-level Execution Environment for ARM.pdf'><strong><span>SKEE: A Lightweight Secure Kernel-level Execution Environment for ARM</span></strong></a><span>. NDSS, 2016.</span></li></ul><h3><a name="专题-b移动终端安全" class="md-header-anchor"></a><span>专题 b：移动终端安全</span></h3><ul><li><span>Lee YT, Enck W, Chen H, et al. </span><a href='./papers/2b/PolyScope Multi-Policy Access Control Analysis to Compute Authorized Attack Operations in Android Systems.pdf'><strong><span>PolyScope: Multi-Policy Access Control Analysis to Compute Authorized Attack Operations in Android Systems</span></strong></a><span>. Security, 2021.</span></li><li><span>Cronin P, Gao X, Yang C, et al. </span><a href='./papers/2b/Charger-Surfing Exploiting a Power Line Side-Channel for Smartphone Information Leakage.pdf'><strong><span>Charger-Surfing: Exploiting a Power Line Side-Channel for Smartphone Information Leakage</span></strong></a><span>. Security, 2021.</span></li><li><span>Markert P, Bailey DV, Golla M, et al. </span><a href='./papers/2b/This PIN Can Be Easily Guessed Analyzing the Security of Smartphone Unlock PINs.pdf'><strong><span>This PIN Can Be Easily Guessed: Analyzing the Security of Smartphone Unlock PINs</span></strong></a><span>. S&amp;P, 2020.</span></li><li><span>Tang Z, Tang K, Xue M, et al. </span><a href='./papers/2b/iOS, Your OS, Everybody&#39;s OS Vetting and Analyzing Network Services of iOS Applications.pdf'><strong><span>iOS, Your OS, Everybody&#39;s OS: Vetting and Analyzing Network Services of iOS Applications</span></strong></a><span>. Security, 2020.</span></li><li><span>Reardon J, Feal Á, Wijesekera P, et al. </span><a href='./papers/2b/50 Ways to Leak Your Data An Exploration of Apps&#39; Circumvention of the Android Permissions System.pdf'><strong><span>50 Ways to Leak Your Data: An Exploration of Apps&#39; Circumvention of the Android Permissions System</span></strong></a><span>. Security, 2019.</span></li><li><span>Alrawi O, Zuo C, Duan R, et al. </span><a href='./papers/2b/The Betrayal At Cloud City An Empirical Analysis Of Cloud-Based Mobile Backends.pdf'><strong><span>The Betrayal At Cloud City: An Empirical Analysis Of Cloud-Based Mobile Backends</span></strong></a><span>. Security, 2019.</span></li><li><span>Aafer Y, Huang J, Sun Y, et al. </span><a href='./papers/2b/AceDroid Normalizing Diverse Android Access Control Checks for Inconsistency Detection.pdf'><strong><span>AceDroid: Normalizing Diverse Android Access Control Checks for Inconsistency Detection</span></strong></a><span>. NDSS, 2018.</span></li><li><span>Redini N, Machiry A, Das D, et al. </span><a href='./papers/2b/BootStomp On the Security of Bootloaders in Mobile Devices.pdf'><strong><span>BootStomp: On the Security of Bootloaders in Mobile Devices</span></strong></a><span>. Security, 2017.</span></li><li><span>Shao Y, Chen QA, Mao ZM, et al. </span><a href='./papers/2b/Kratos Discovering Inconsistent Security Policy Enforcement in the Android Framework.pdf'><strong><span>Kratos: Discovering Inconsistent Security Policy Enforcement in the Android Framework</span></strong></a><span>. NDSS, 2016.</span></li><li><span>Nadkarni A, Andow B, Enck W, et al. </span><a href='./papers/2b/Practical DIFC Enforcement on Android.pdf'><strong><span>Practical DIFC Enforcement on Android</span></strong></a><span>. Security, 2016.</span></li></ul><h3><a name="专题-c云系统安全" class="md-header-anchor"></a><span>专题 c：云系统安全</span></h3><ul><li><span>Zhao S, Li M, Zhangyz Y, et al. </span><a href='./papers/2c/vSGX Virtualizing SGX Enclaves on AMD SEV.pdf'><strong><span>vSGX: Virtualizing SGX Enclaves on AMD SEV</span></strong></a><span>. S&amp;P, 2022.</span></li><li><span>Chen Y, Li J, Xu G, et al. </span><a href='./papers/2c/SGXLock Towards Efficiently Establishing Mutual Distrust Between Host Application and Enclave for SGX.pdf'><strong><span>SGXLock: Towards Efficiently Establishing Mutual Distrust Between Host Application and Enclave for SGX</span></strong></a><span>. Security, 2022.</span></li><li><span>Feng E, Lu X, Du D, et al. </span><a href='./papers/2c/Scalable Memory Protection in the PENGLAI Enclave.pdf'><strong><span>Scalable Memory Protection in the PENGLAI Enclave</span></strong></a><span>. OSDI, 2021.</span></li><li><span>Li M, Zhang Y, Wang H, et al. </span><a href='./papers/2c/CIPHERLEAKS Breaking Constant-Time Cryptography on AMD SEV via the Ciphertext Side Channel.pdf'><strong><span>CIPHERLEAKS: Breaking Constant-Time Cryptography on AMD SEV via the Ciphertext Side Channel</span></strong></a><span>. Security, 2021.</span></li><li><span>Bahmani R, Brasser F, Dessouky G, et al. </span><a href='./papers/2c/CURE A Security Architecture with CUstomizable and Resilient Enclaves.pdf'><strong><span>CURE: A Security Architecture with CUstomizable and Resilient Enclaves</span></strong></a><span>. Security, 2021.</span></li><li><span>Gu J, Wu X, Zhu B, et al. </span><a href='./papers/2c/Enclavisor A Hardware-Software Co-Design for Enclaves on Untrusted Cloud.pdf'><strong><span>Enclavisor: A Hardware-Software Co-Design for Enclaves on Untrusted Cloud</span></strong></a><span>. TC, 2020.</span></li><li><span>Zhao S, Zhang Q, Qin Y, et al. </span><a href='./papers/2c/Sectee A Software-based Approach to Secure Enclave Architecture Using TEE.pdf'><strong><span>Sectee: A Software-based Approach to Secure Enclave Architecture Using TEE</span></strong></a><span>. CCS, 2019.</span></li><li><span>Chen G, Zhang Y and Lai TH. </span><a href='./papers/2c/Opera Open Remote Attestation for Intel&#39;s Secure Enclaves.pdf'><strong><span>Opera: Open Remote Attestation for Intel&#39;s Secure Enclaves</span></strong></a><span>. CCS, 2019.</span></li><li><span>Li M, Zhang Y, Lin Z, et al. </span><a href='./papers/2c/Exploiting Unprotected IO Operations in AMD’s Secure Encrypted Virtualization.pdf'><strong><span>Exploiting Unprotected I/O Operations in AMD’s Secure Encrypted Virtualization</span></strong></a><span>. Security, 2019.</span></li><li><span>Lee S, Shih MW, Gera P, et al. </span><a href='./papers/2c/Inferring Fine-Grained Control Flow Inside SGX Enclaves with Branch Shadowing.pdf'><strong><span>Inferring Fine-Grained Control Flow Inside SGX Enclaves with Branch Shadowing</span></strong></a><span>. Security, 2017.</span></li><li><span>Ferraiuolo A, Baumann A, Hawblitzel C, et al. </span><a href='./papers/2c/Komodo Using Verification to Disentangle Secure-Enclave Hardware from Software.pdf'><strong><span>Komodo: Using Verification to Disentangle Secure-Enclave Hardware from Software</span></strong></a><span>. SOSP, 2017.</span></li></ul><h3><a name="专题-d区块链系统安全" class="md-header-anchor"></a><span>专题 d：区块链系统安全</span></h3><ul><li><span>Wu L, Hu Y, Zhou Y, et al. </span><a href='./papers/2d/Towards Understanding and Demystifying Bitcoin Mixing Services.pdf'><strong><span>Towards Understanding and Demystifying Bitcoin Mixing Services</span></strong></a><span>. WWW, 2021.</span></li><li><span>Wan Z, Xia X, Lo D, et al. </span><a href='./papers/2d/Smart Contract Security A Practitioners&#39; Perspective.pdf'><strong><span>Smart Contract Security: A Practitioners&#39; Perspective</span></strong></a><span>. ICSE, 2021.</span></li><li><span>Perez D and Livshits B. </span><a href='./papers/2d/Smart Contract Vulnerabilities Vulnerable Does Not Imply Exploited.pdf'><strong><span>Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited</span></strong></a><span>. Security, 2021.</span></li><li><span>Zhang M, Zhang X, Zhang Y, et al. </span><a href='./papers/2d/TXSPECTOR Uncovering Attacks in Ethereum from Transactions.pdf'><strong><span>TXSPECTOR: Uncovering Attacks in Ethereum from Transactions</span></strong></a><span>. Security, 2020.</span></li><li><span>Rodler M, Li W, Karame GO, et al. </span><a href='./papers/2d/Sereum Protecting Existing Smart Contracts Against Re-Entrancy Attacks.pdf'><strong><span>Sereum: Protecting Existing Smart Contracts Against Re-Entrancy Attacks</span></strong></a><span>. NDSS, 2019.</span></li><li><span>Torres CF and Steichen M. </span><a href='./papers/2d/The Art of The Scam Demystifying Honeypots in Ethereum Smart Contracts.pdf'><strong><span>The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts</span></strong></a><span>. Security, 2019.</span></li><li><span>Cheng Z, Hou X, Li R, et al. </span><a href='./papers/2d/Towards a First Step to Understand the Cryptocurrency Stealing Attack on Ethereum.pdf'><strong><span>Towards a First Step to Understand the Cryptocurrency Stealing Attack on Ethereum</span></strong></a><span>. RAID, 2019.</span></li><li><span>Wang S, Wang C and Hu Q. </span><a href='./papers/2d/Corking by Forking Vulnerability Analysis of Blockchain.pdf'><strong><span>Corking by Forking: Vulnerability Analysis of Blockchain</span></strong></a><span>. INFOCOM, 2019.</span></li><li><span>Chen T, Zhang Y, Li Z, et al. </span><a href='./papers/2d/TokenScope Automatically Detecting Inconsistent Behaviors of Cryptocurrency Tokens in Ethereum.pdf'><strong><span>TokenScope: Automatically Detecting Inconsistent Behaviors of Cryptocurrency Tokens in Ethereum</span></strong></a><span>. CCS, 2019.</span></li><li><span>Krupp J and Rossow C. </span><a href='./papers/2d/teEther Gnawing at Ethereum to Automatically Exploit Smart Contracts.pdf'><strong><span>teEther: Gnawing at Ethereum to Automatically Exploit Smart Contracts</span></strong></a><span>. Security, 2018.</span></li><li><span>Tsankov P, Dan A, Drachsler-Cohen D, et al. </span><a href='./papers/2d/Securify Practical Security Analysis of Smart Contracts.pdf'><strong><span>Securify: Practical Security Analysis of Smart Contracts</span></strong></a><span>. CCS, 2018.</span></li></ul><h3><a name="专题-e物联网系统安全" class="md-header-anchor"></a><span>专题 e：物联网系统安全</span></h3><ul><li><span>He Y, Zou Z, Sun K, et al. </span><a href='./papers/2e/RapidPatch Firmware Hotpatching for Real-Time Embedded Devices.pdf'><strong><span>RapidPatch: Firmware Hotpatching for Real-Time Embedded Devices</span></strong></a><span>. Security, 2022.</span></li><li><span>Zhang H, Anilkumar A, Fredrikson M, et al. </span><a href='./papers/2e/Capture Centralized Library Management for Heterogeneous IoT Devices.pdf'><strong><span>Capture: Centralized Library Management for Heterogeneous IoT Devices</span></strong></a><span>. Security, 2021.</span></li><li><span>Johnson E, Bland M, Zhu Y, et al. </span><a href='./papers/2e/Jetset Targeted Firmware Rehosting for Embedded Systems.pdf'><strong><span>Jetset: Targeted Firmware Rehosting for Embedded Systems</span></strong></a><span>. Security, 2021.</span></li><li><span>Niesler C, Surminski S and Davi L. </span><a href='./papers/2e/HERA Hotpatching of Embedded Real-time Applications.pdf'><strong><span>HERA: Hotpatching of Embedded Real-time Applications</span></strong></a><span>. NDSS, 2021.</span></li><li><span>Clements AA, Gustafson E, Scharnowski T, et al. </span><a href='./papers/2e/HALucinator Firmware Re-hosting Through Abstraction Layer Emulation.pdf'><strong><span>HALucinator: Firmware Re-hosting Through Abstraction Layer Emulation</span></strong></a><span>. Security, 2020.</span></li><li><span>Chen Y, Yuan X, Zhang J, et al. </span><a href='./papers/2e/Devil’s Whisper A General Approach for Physical Adversarial Attacks against Commercial Black-Box Speech Recognition Devices.pdf'><strong><span>Devil’s Whisper: A General Approach for Physical Adversarial Attacks against Commercial Black-Box Speech Recognition Devices</span></strong></a><span>. Security, 2020.</span></li><li><span>Muench M, Stijohann J, Kargl F, et al. </span><a href='./papers/2e/What You Corrupt Is Not What You Crash Challenges in Fuzzing Embedded Devices.pdf'><strong><span>What You Corrupt Is Not What You Crash: Challenges in Fuzzing Embedded Devices</span></strong></a><span>. NDSS, 2018.</span></li><li><span>Chen J, Diao W, Zhao Q, et al. </span><a href='./papers/2e/IoTFuzzer Discovering Memory Corruptions in IoT Through App-based Fuzzing.pdf'><strong><span>IoTFuzzer: Discovering Memory Corruptions in IoT Through App-based Fuzzing</span></strong></a><span>. NDSS, 2018.</span></li></ul><h2><a name="3-网络安全" class="md-header-anchor"></a><span>3. 网络安全</span></h2><h3><a name="专题-a路由安全" class="md-header-anchor"></a><span>专题 a：路由安全</span></h3><ul><li><span>Hlavacek T, Jeitner P, Mirdita D, et al. </span><a href='./papers/3a/Stalloris RPKI Downgrade Attack.pdf'><strong><span>Stalloris: RPKI Downgrade Attack</span></strong></a><span>. Security, 2022.</span></li><li><span>Morillo R, Furuness J, Herzberg A, et al. </span><a href='./papers/3a/ROV++ Improved Deployable Defense against BGP Hijacking.pdf'><strong><span>ROV++: Improved Deployable Defense against BGP Hijacking</span></strong></a><span>. NDSS, 2021.</span></li><li><span>Hlavacek T, Cunha I, Gilad Y, et al. </span><a href='./papers/3a/Disco Sidestepping RPKI&#39;s Deployment Barriers.pdf'><strong><span>Disco: Sidestepping RPKI&#39;s Deployment Barriers</span></strong></a><span>. NDSS, 2020.</span></li><li><span>Tran M, Kang MS, Hsiao HC, et al. </span><a href='./papers/3a/On the Feasibility of Rerouting-based DDoS Defenses.pdf'><strong><span>On the Feasibility of Rerouting-based DDoS Defenses</span></strong></a><span>. S&amp;P, 2019.</span></li><li><span>Birge-Lee H, Wang L, Rexford J, et al. </span><a href='./papers/3a/Sico Surgical Interception Attacks by Manipulating BGP Communities.pdf'><strong><span>Sico: Surgical Interception Attacks by Manipulating BGP Communities</span></strong></a><span>. CCS, 2019.</span></li><li><span>Birge-Lee H, Sun Y, Edmundson A, et al. </span><a href='./papers/3a/Bamboozling Certificate Authorities with BGP.pdf'><strong><span>Bamboozling Certificate Authorities with BGP</span></strong></a><span>. Security, 2018.</span></li><li><span>Smith JM and Schuchard M. </span><a href='./papers/3a/Routing around Congestion Defeating DDoS Attacks and Adverse Network Conditions via Reactive BGP Routing.pdf'><strong><span>Routing around Congestion: Defeating DDoS Attacks and Adverse Network Conditions via Reactive BGP Routing</span></strong></a><span>. S&amp;P, 2018.</span></li><li><span>Sermpezis P, Kotronis V, Gigis P, et al. </span><a href='./papers/3a/ARTEMIS Neutralizing BGP Hijacking within a Minute.pdf'><strong><span>ARTEMIS: Neutralizing BGP Hijacking within a Minute</span></strong></a><span>. TON, 2018.</span></li><li><span>Schlamp J, Holz R, Jacquemart Q, et al. </span><a href='./papers/3a/HEAP Reliable Assessment of BGP Hijacking Attacks.pdf'><strong><span>HEAP: Reliable Assessment of BGP Hijacking Attacks</span></strong></a><span>. JSAC, 2016.</span></li><li><span>Cohen A, Gilad Y, Herzberg A, et al. </span><a href='./papers/3a/Jumpstarting BGP Security with Path-End Validation.pdf'><strong><span>Jumpstarting BGP Security with Path-End Validation</span></strong></a><span>. SIGCOMM, 2016.</span></li></ul><h3><a name="专题-btcp-安全" class="md-header-anchor"></a><span>专题 b：TCP 安全</span></h3><ul><li><span>Bock K, Alaraj A, Fax Y, et al. </span><a href='./papers/3b/Weaponizing Middleboxes for TCP Reflected Amplification.pdf'><strong><span>Weaponizing Middleboxes for TCP Reflected Amplification</span></strong></a><span>. Security, 2021.</span></li><li><span>Feng X, Fu C, Li Q, et al. </span><a href='./papers/3b/Off-Path TCP Exploits of the Mixed IPID Assignment.pdf'><strong><span>Off-Path TCP Exploits of the Mixed IPID Assignment</span></strong></a><span>. CCS, 2020.</span></li><li><span>Cao Y, Wang Z, Qian Z, et al. </span><a href='./papers/3b/Principled Unearthing of TCP Side Channel Vulnerabilities.pdf'><strong><span>Principled Unearthing of TCP Side Channel Vulnerabilities</span></strong></a><span>. CCS, 2019.</span></li><li><span>Chen W and Qian Z. </span><a href='./papers/3b/Off-Path TCP Exploit How Wireless Routers Can Jeopardize Your Secrets.pdf'><strong><span>Off-Path TCP Exploit: How Wireless Routers Can Jeopardize Your Secrets</span></strong></a><span>. Security, 2018.</span></li><li><span>Munir A, Qian Z, Shafiq Z, et al. </span><a href='./papers/3b/Multipath TCP Traffic Diversion Attacks and Countermeasures.pdf'><strong><span>Multipath TCP Traffic Diversion Attacks and Countermeasures</span></strong></a><span>. ICNP, 2017.</span></li><li><span>Cao Y, Qian Z, Wang Z, et al. </span><a href='./papers/3b/Off-Path TCP Exploits Global Rate Limit Considered Dangerous.pdf'><strong><span>Off-Path TCP Exploits: Global Rate Limit Considered Dangerous</span></strong></a><span>. Security, 2016.</span></li><li><span>Qian Z and Mao ZM. </span><a href='./papers/3b/Off-path TCP Sequence Number Inference Attack - How Firewall Middleboxes Reduce Security.pdf'><strong><span>Off-path TCP Sequence Number Inference Attack - How Firewall Middleboxes Reduce Security</span></strong></a><span>. S&amp;P, 2012.</span></li><li><span>Qian Z, Mao ZM and Xie Y. </span><a href='./papers/3b/Collaborative TCP Sequence Number Inference Attack How to Crack Sequence Number under a Second.pdf'><strong><span>Collaborative TCP Sequence Number Inference Attack: How to Crack Sequence Number under a Second</span></strong></a><span>. CCS, 2012.</span></li></ul><h3><a name="专题-cdns-安全" class="md-header-anchor"></a><span>专题 c：DNS 安全</span></h3><ul><li><span>Alharbi F, Zhou Y, Qian F, et al. </span><a href='./papers/3c/DNS Poisoning of Operating System Caches Attacks and Mitigations.pdf'><strong><span>DNS Poisoning of Operating System Caches: Attacks and Mitigations</span></strong></a><span>. TDSC, 2022.</span></li><li><span>Man K, Zhou XA and Qian Z. </span><a href='./papers/3c/DNS Cache Poisoning Attack Resurrections with Side Channels.pdf'><strong><span>DNS Cache Poisoning Attack: Resurrections with Side Channels</span></strong></a><span>. CCS, 2021.</span></li><li><span>Afek Y, Bremler-Barr A and Shafir L. </span><a href='./papers/3c/NXNSAttack Recursive DNS Inefficiencies and Vulnerabilities.pdf'><strong><span>NXNSAttack: Recursive DNS Inefficiencies and Vulnerabilities</span></strong></a><span>. Security, 2020.</span></li><li><span>Man K, Qian Z, Wang Z, et al. </span><a href='./papers/3c/DNS Cache Poisoning Attack Reloaded Revolutions with Side Channels.pdf'><strong><span>DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels</span></strong></a><span>. CCS, 2020.</span></li><li><span>Zheng X, Lu C, Peng J, et al. </span><a href='./papers/3c/Poison Over Troubled Forwarders A Cache Poisoning Attack Targeting DNS Forwarding Devices.pdf'><strong><span>Poison Over Troubled Forwarders: A Cache Poisoning Attack Targeting DNS Forwarding Devices</span></strong></a><span>. Security, 2020.</span></li><li><span>Liu B, Lu C, Duan H, et al. </span><a href='./papers/3c/Who Is Answering My Queries Understanding and Characterizing Interception of the DNS Resolution Path.pdf'><strong><span>Who Is Answering My Queries: Understanding and Characterizing Interception of the DNS Resolution Path</span></strong></a><span>. Security, 2018.</span></li><li><span>Liu D, Li Z, Du K, et al. </span><a href='./papers/3c/Don&#39;t Let One Rotten Apple Spoil the Whole Barrel Towards Automated Detection of Shadowed Domains.pdf'><strong><span>Don&#39;t Let One Rotten Apple Spoil the Whole Barrel: Towards Automated Detection of Shadowed Domains</span></strong></a><span>. CCS, 2017.</span></li><li><span>Du K, Yang H, Li Z, et al. </span><a href='./papers/3c/The Ever-Changing Labyrinth A Large-Scale Analysis of Wildcard DNS Powered Blackhat SEO.pdf'><strong><span>The Ever-Changing Labyrinth: A Large-Scale Analysis of Wildcard DNS Powered Blackhat SEO</span></strong></a><span>. Security, 2016.</span></li></ul><h3><a name="专题-d流量分析" class="md-header-anchor"></a><span>专题 d：流量分析</span></h3><ul><li><span>Gong J, Zhang W, Zhang C, et al. </span><a href='./papers/3d/Surakav Generating Realistic Traces for a Strong Website Fingerprinting Defense.pdf'><strong><span>Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense</span></strong></a><span>. S&amp;P, 2022.</span></li><li><span>Fu C, Li Q, Shen M, et al. </span><a href='./papers/3d/Realtime Robust Malicious Traffic Detection via Frequency Domain Analysis.pdf'><strong><span>Realtime Robust Malicious Traffic Detection via Frequency Domain Analysis</span></strong></a><span>. CCS, 2021.</span></li><li><span>Yin Q, Liu Z, Li Q, et al. </span><a href='./papers/3d/Automated Multi-Tab Website Fingerprinting Attack.pdf'><strong><span>Automated Multi-Tab Website Fingerprinting Attack</span></strong></a><span>. TDSC, 2021.</span></li><li><span>Wang T. </span><a href='./papers/3d/The One-Page Setting A Higher Standard for Evaluating Website Fingerprinting Defenses.pdf'><strong><span>The One-Page Setting: A Higher Standard for Evaluating Website Fingerprinting Defenses</span></strong></a><span>. CCS, 2021.</span></li><li><span>Wang T. </span><a href='./papers/3d/High Precision Open-World Website Fingerprinting.pdf'><strong><span>High Precision Open-World Website Fingerprinting</span></strong></a><span>. S&amp;P, 2020.</span></li><li><span>Gong J and Wang T. </span><a href='./papers/3d/Zero-delay Lightweight Defenses against Website Fingerprinting.pdf'><strong><span>Zero-delay Lightweight Defenses against Website Fingerprinting</span></strong></a><span>. Security, 2020.</span></li><li><span>Li S, Guo H and Hopper N. </span><a href='./papers/3d/Measuring Information Leakage in Website Fingerprinting Attacks and Defenses.pdf'><strong><span>Measuring Information Leakage in Website Fingerprinting Attacks and Defenses</span></strong></a><span>. CCS, 2018.</span></li><li><span>Wang T and Goldberg I. </span><a href='./papers/3d/Walkie-Talkie An Efficient Defense Against Passive Website Fingerprinting Attacks.pdf'><strong><span>Walkie-Talkie: An Efficient Defense Against Passive Website Fingerprinting Attacks</span></strong></a><span>. Security, 2017.</span></li><li><span>Hayes J and Danezis G. </span><a href='./papers/3d/k-fingerprinting A Robust Scalable Website Fingerprinting Technique.pdf'><strong><span>k-fingerprinting: A Robust Scalable Website Fingerprinting Technique</span></strong></a><span>. Security, 2016.</span></li></ul><h3><a name="专题-e物联网安全" class="md-header-anchor"></a><span>专题 e：物联网安全</span></h3><ul><li><span>Ding W, Hu H and Cheng L. </span><a href='./papers/3e/IOTSAFE Enforcing Safety and Security Policy with Real IoT Physical Interaction Discovery.pdf'><strong><span>IOTSAFE: Enforcing Safety and Security Policy with Real IoT Physical Interaction Discovery</span></strong></a><span>. NDSS, 2021.</span></li><li><span>Trimananda R, Varmarken J, Markopoulou A, et al. </span><a href='./papers/3e/Packet-Level Signatures for Smart Home Devices.pdf'><strong><span>Packet-Level Signatures for Smart Home Devices</span></strong></a><span>. NDSS, 2020.</span></li><li><span>Dong S, Li Z, Tang D, et al. </span><a href='./papers/3e/Your Smart Home Can&#39;t Keep a Secret Towards Automated Fingerprinting of IoT Traffic.pdf'><strong><span>Your Smart Home Can&#39;t Keep a Secret: Towards Automated Fingerprinting of IoT Traffic</span></strong></a><span>. CCS, 2020.</span></li><li><span>Gu T, Fang Z, Abhishek A, et al. </span><a href='./papers/3e/IoTGaze IoT Security Enforcement via Wireless Context Analysis.pdf'><strong><span>IoTGaze: IoT Security Enforcement via Wireless Context Analysis</span></strong></a><span>. INFOCOM, 2020.</span></li><li><span>Zhou W, Jia Y, Yao Y, et al. </span><a href='./papers/3e/Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms.pdf'><strong><span>Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms</span></strong></a><span>. Security, 2019.</span></li><li><span>Wang Q, Datta P, Yang W, et al. </span><a href='./papers/3e/Charting the Attack Surface of Trigger-Action IoT Platforms.pdf'><strong><span>Charting the Attack Surface of Trigger-Action IoT Platforms</span></strong></a><span>. CCS, 2019.</span></li><li><span>Ding W and Hu H. </span><a href='./papers/3e/On the Safety of IoT Device Physical Interaction Control.pdf'><strong><span>On the Safety of IoT Device Physical Interaction Control</span></strong></a><span>. CCS, 2018.</span></li><li><span>Zhang W, Meng Y, Liu Y, et al. </span><a href='./papers/3e/Homonit Monitoring Smart Home Apps from Encrypted Traffic.pdf'><strong><span>Homonit: Monitoring Smart Home Apps from Encrypted Traffic</span></strong></a><span>. CCS, 2018.</span></li><li><span>Ronen E, Shamir A, Weingarten AO, et al. </span><a href='./papers/3e/IoT Goes Nuclear Creating a ZigBee Chain Reaction.pdf'><strong><span>IoT Goes Nuclear: Creating a ZigBee Chain Reaction</span></strong></a><span>. S&amp;P, 2017.</span></li></ul><h2><a name="4-应用安全" class="md-header-anchor"></a><span>4. 应用安全</span></h2><h3><a name="专题-aweb-安全" class="md-header-anchor"></a><span>专题 a：Web 安全</span></h3><ul><li><span>Bollinger D, Kubicek K, Cotrini C, et al. </span><a href='./papers/4a/Automating Cookie Consent and GDPR Violation Detection.pdf'><strong><span>Automating Cookie Consent and GDPR Violation Detection</span></strong></a><span>. Security, 2022.</span></li><li><span>Drakonakis K, Ioannidis S and Polakis J. </span><a href='./papers/4a/The Cookie Hunter Automated Black-Box Auditing for Web Authentication and Authorization Flaws.pdf'><strong><span>The Cookie Hunter: Automated Black-Box Auditing for Web Authentication and Authorization Flaws</span></strong></a><span>. CCS, 2020.</span></li><li><span>Tang R, Yang Z, Li Z, et al. </span><a href='./papers/4a/ZeroWall Detecting Zero-Day Web Attacks through Encoder-Decoder Recurrent Neural Networks.pdf'><strong><span>ZeroWall: Detecting Zero-Day Web Attacks through Encoder-Decoder Recurrent Neural Networks</span></strong></a><span>. INFOCOM, 2020.</span></li><li><span>Calzavara S, Focardi R, Nemec M, et al. </span><a href='./papers/4a/Postcards from the Post-HTTP World Amplification of HTTPS Vulnerabilities in the Web Ecosystem.pdf'><strong><span>Postcards from the Post-HTTP World: Amplification of HTTPS Vulnerabilities in the Web Ecosystem</span></strong></a><span>. S&amp;P, 2019.</span></li><li><span>Zhang M, Meng W, Lee S, et al. </span><a href='./papers/4a/All Your Clicks Belong to Me Investigating Click Interception on the Web.pdf'><strong><span>All Your Clicks Belong to Me: Investigating Click Interception on the Web</span></strong></a><span>. Security, 2019.</span></li><li><span>Lee J, Kim H, Park J, et al. </span><a href='./papers/4a/Pride and Prejudice in Progressive Web Apps Abusing Native App-like Features in Web Applications.pdf'><strong><span>Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications</span></strong></a><span>. CCS, 2018.</span></li><li><span>Chen J, Jiang J, Duan H, et al. </span><a href='./papers/4a/We Still Don’t Have Secure Cross-Domain Requests an Empirical Study of CORS.pdf'><strong><span>We Still Don’t Have Secure Cross-Domain Requests: an Empirical Study of CORS</span></strong></a><span>. Security, 2018.</span></li><li><span>Franken G, Van Goethem T and Joosen W. </span><a href='./papers/4a/Who Left Open the Cookie Jar A Comprehensive Evaluation of Third-Party Cookie Policies.pdf'><strong><span>Who Left Open the Cookie Jar? A Comprehensive Evaluation of Third-Party Cookie Policies</span></strong></a><span>. Security, 2018.</span></li><li><span>Ghasemisharif M, Ramesh A, Checkoway S, et al. </span><a href='./papers/4a/O Single Sign-Off, Where Art Thou An Empirical Analysis of Single Sign-On Account Hijacking and Session Management on the Web.pdf'><strong><span>O Single Sign-Off, Where Art Thou? An Empirical Analysis of Single Sign-On Account Hijacking and Session Management on the Web</span></strong></a><span>. Security, 2018.</span></li><li><span>Felt AP, Barnes R, King A, et al. </span><a href='./papers/4a/Measuring HTTPS Adoption on the Web.pdf'><strong><span>Measuring HTTPS Adoption on the Web</span></strong></a><span>. Security, 2017.</span></li></ul><h3><a name="专题-b隐私保护" class="md-header-anchor"></a><span>专题 b：隐私保护</span></h3><ul><li><span>Wang Y, Ding Z, Xiao Y, et al. </span><a href='./papers/4b/DPGen Automated Program Synthesis for Differential Privacy.pdf'><strong><span>DPGen: Automated Program Synthesis for Differential Privacy</span></strong></a><span>. CCS, 2021.</span></li><li><span>Böhler J and Kerschbaum F. </span><a href='./papers/4b/Secure Multi-party Computation of Differentially Private Heavy Hitters.pdf'><strong><span>Secure Multi-party Computation of Differentially Private Heavy Hitters</span></strong></a><span>. CCS, 2021.</span></li><li><span>Poddar R, Kalra S, Yanai A, et al. </span><a href='./papers/4b/Senate A Maliciously-Secure MPC Platform for Collaborative Analytics.pdf'><strong><span>Senate: A Maliciously-Secure MPC Platform for Collaborative Analytics</span></strong></a><span>. Security, 2021.</span></li><li><span>Zheng W, Deng R, Chen W, et al. </span><a href='./papers/4b/Cerebro A Platform for Multi-Party Cryptographic Collaborative Learning.pdf'><strong><span>Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning</span></strong></a><span>. Security, 2021.</span></li><li><span>Cao X, Jia J and Gong NZ. </span><a href='./papers/4b/Data Poisoning Attacks to Local Differential Privacy Protocols.pdf'><strong><span>Data Poisoning Attacks to Local Differential Privacy Protocols</span></strong></a><span>. Security, 2021.</span></li><li><span>Böhler J and Kerschbaum F. </span><a href='./papers/4b/Secure Multi-party Computation of Differentially Private Median.pdf'><strong><span>Secure Multi-party Computation of Differentially Private Median</span></strong></a><span>. Security, 2020.</span></li><li><span>Gu X, Li M, Cheng Y, et al. </span><a href='./papers/4b/PCKV Locally Differentially Private Correlated Key-Value Data Collection with Optimized Utility.pdf'><strong><span>PCKV: Locally Differentially Private Correlated Key-Value Data Collection with Optimized Utility</span></strong></a><span>. Security, 2020.</span></li><li><span>Murakami T and Kawamoto Y. </span><a href='./papers/4b/Utility-Optimized Local Differential Privacy Mechanisms for Distribution Estimation.pdf'><strong><span>Utility-Optimized Local Differential Privacy Mechanisms for Distribution Estimation</span></strong></a><span>. Security, 2019.</span></li><li><span>Zheng W, Popa RA, Gonzalez JE, et al. </span><a href='./papers/4b/Helen Maliciously Secure Coopetitive Learning for Linear Models.pdf'><strong><span>Helen: Maliciously Secure Coopetitive Learning for Linear Models</span></strong></a><span>. S&amp;P, 2019.</span></li><li><span>Agrawal N, Shahin Shamsabadi A, Kusner MJ, et al. </span><a href='./papers/4b/QUOTIENT Two-Party Secure Neural Network Training and Prediction.pdf'><strong><span>QUOTIENT: Two-Party Secure Neural Network Training and Prediction</span></strong></a><span>. CCS, 2019.</span></li></ul><h3><a name="专题-c机器学习安全" class="md-header-anchor"></a><span>专题 c：机器学习安全</span></h3><ul><li><span>Song L and Mittal P. </span><a href='./papers/4c/Systematic Evaluation of Privacy Risks of Machine Learning Models.pdf'><strong><span>Systematic Evaluation of Privacy Risks of Machine Learning Models</span></strong></a><span>. Security, 2021.</span></li><li><span>Mu J, Wang B, Nasr M, et al. </span><a href='./papers/4c/A Hard Label Black-Box Adversarial Attack Against Graph Neural Networks.pdf'><strong><span>A Hard Label Black-Box Adversarial Attack Against Graph Neural Networks</span></strong></a><span>. CCS, 2021.</span></li><li><span>Lin J, Xu L, Liu Y, et al. </span><a href='./papers/4c/Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features.pdf'><strong><span>Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features</span></strong></a><span>. CCS, 2020.</span></li><li><span>Song C and Raghunathan A. </span><a href='./papers/4c/Information Leakage in Embedding Models.pdf'><strong><span>Information Leakage in Embedding Models</span></strong></a><span>. CCS, 2020.</span></li><li><span>Lecuyer M, Atlidakis V, Geambasu R, et al. </span><a href='./papers/4c/Certified Robustness to Adversarial Examples with Differential Privacy.pdf'><strong><span>Certified Robustness to Adversarial Examples with Differential Privacy</span></strong></a><span>. S&amp;P, 2019.</span></li><li><span>Wang B, Yao Y, Shan S, et al. </span><a href='./papers/4c/Neural Cleanse Identifying and Mitigating Backdoor Attacks in Neural Networks.pdf'><strong><span>Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks</span></strong></a><span>. S&amp;P, 2019.</span></li><li><span>Ma S, Liu Y, Tao G, et al. </span><a href='./papers/4c/NIC Detecting Adversarial Samples with Neural Network Invariant Checking.pdf'><strong><span>NIC: Detecting Adversarial Samples with Neural Network Invariant Checking</span></strong></a><span>. NDSS, 2019.</span></li><li><span>Liu Y, Ma S, Aafer Y, et al. </span><a href='./papers/4c/Trojaning Attack on Neural Networks.pdf'><strong><span>Trojaning Attack on Neural Networks</span></strong></a><span>. NDSS, 2018.</span></li><li><span>Adi Y, Baum C, Cisse M, et al. </span><a href='./papers/4c/Turning Your Weakness Into a Strength Watermarking Deep Neural Networks by Backdooring.pdf'><strong><span>Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring</span></strong></a><span>. Security, 2018.</span></li><li><span>Carlini N and Wagner D. </span><a href='./papers/4c/Towards Evaluating the Robustness of Neural Networks.pdf'><strong><span>Towards Evaluating the Robustness of Neural Networks</span></strong></a><span>. S&amp;P, 2017.</span></li></ul><h3><a name="专题-d内容安全与與情分析" class="md-header-anchor"></a><span>专题 d：内容安全与與情分析</span></h3><ul><li><span>Kaiser B, Wei J, Lucherini E, et al. </span><a href='./papers/4d/Adapting Security Warnings to Counter Online Disinformation.pdf'><strong><span>Adapting Security Warnings to Counter Online Disinformation</span></strong></a><span>. Security, 2021.</span></li><li><span>Lin Y, Liu R, Divakaran D, et al. </span><a href='./papers/4d/Phishpedia A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages.pdf'><strong><span>Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages</span></strong></a><span>. Security, 2021.</span></li><li><span>Oest A, Zhang P, Wardman B, et al. </span><a href='./papers/4d/Sunrise to Sunset Analyzing the End-to-End Life Cycle and Effectiveness of Phishing Attacks at Scale.pdf'><strong><span>Sunrise to Sunset: Analyzing the End-to-End Life Cycle and Effectiveness of Phishing Attacks at Scale</span></strong></a><span>. Security, 2020.</span></li><li><span>Breuer A, Eilat R and Weinsberg U. </span><a href='./papers/4d/Friend or Faux Graph-based Early Detection of Fake Accounts on Social Networks.pdf'><strong><span>Friend or Faux: Graph-based Early Detection of Fake Accounts on Social Networks</span></strong></a><span>. WWW, 2020.</span></li><li><span>Abdelnabi S, Krombholz K and Fritz M. </span><a href='./papers/4d/VisualPhishNet Zero-Day Phishing Website Detection by Visual Similarity.pdf'><strong><span>VisualPhishNet: Zero-Day Phishing Website Detection by Visual Similarity</span></strong></a><span>. CCS, 2020.</span></li><li><span>Yuan D, Miao Y, Gong NZ, et al. </span><a href='./papers/4d/Detecting Fake Accounts in Online Social Networks at the Time of Registrations.pdf'><strong><span>Detecting Fake Accounts in Online Social Networks at the Time of Registrations</span></strong></a><span>. CCS, 2019.</span></li><li><span>Namba R and Sakuma J. </span><a href='./papers/4d/Robust Watermarking of Neural Network with Exponential Weighting.pdf'><strong><span>Robust Watermarking of Neural Network with Exponential Weighting</span></strong></a><span>. AsiaCCS, 2019.</span></li><li><span>Adi Y, Baum C, Cisse M, et al. </span><a href='./papers/4d/Turning Your Weakness Into a Strength Watermarking Deep Neural Networks by Backdooring.pdf'><strong><span>Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring</span></strong></a><span>. Security, 2018.</span></li><li><span>Zhang J, Gu Z, Jang J, et al. </span><a href='./papers/4d/Protecting Intellectual Property of Deep Neural Networks with Watermarking.pdf'><strong><span>Protecting Intellectual Property of Deep Neural Networks with Watermarking</span></strong></a><span>. AsiaCCS, 2018.</span></li><li><span>Wang B, Zhang L and Gong NZ. </span><a href='./papers/4d/SybilSCAR Sybil Detection in Online Social Networks via Local Rule based Propagation.pdf'><strong><span>SybilSCAR: Sybil Detection in Online Social Networks via Local Rule based Propagation</span></strong></a><span>. INFOCOM, 2017.</span></li></ul><h3><a name="专题-e人工智能系统安全" class="md-header-anchor"></a><span>专题 e：人工智能系统安全</span></h3><ul><li><span>Hu S, Chen Q, Sun J, et al. </span><a href='./papers/4e/Automated Discovery of Denial-of-Service Vulnerabilities in Connected Vehicle Protocols.pdf'><strong><span>Automated Discovery of Denial-of-Service Vulnerabilities in Connected Vehicle Protocols</span></strong></a><span>. Security, 2021.</span></li><li><span>Sata T, Shen J, Wang N, et al. </span><a href='./papers/4e/Dirty Road Can Attack Security of Deep Learning based Automated Lane Centering under Physical-World Attack.pdf'><strong><span>Dirty Road Can Attack: Security of Deep Learning based Automated Lane Centering under Physical-World Attack</span></strong></a><span>. Security, 2021.</span></li><li><span>Ji X, Cheng Y, Zhang Y, et al. </span><a href='./papers/4e/Poltergeist Acoustic Adversarial Machine Learning against Cameras and Computer Vision.pdf'><strong><span>Poltergeist: Acoustic Adversarial Machine Learning against Cameras and Computer Vision</span></strong></a><span>. S&amp;P, 2021.</span></li><li><span>Cao Y, Wang N, Xiao C, et al. </span><a href='./papers/4e/Invisible for both Camera and LiDAR Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks.pdf'><strong><span>Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks</span></strong></a><span>. S&amp;P, 2021.</span></li><li><span>Abdullah H, Rahman M, et al. </span><a href='./papers/4e/Hear No Evil, See Kenansville Efficient and Transferable Black-Box Attacks on Speech Recognition and Voice Identification Systems.pdf'><strong><span>Hear &quot;No Evil&quot;, See &quot;Kenansville&quot;: Efficient and Transferable Black-Box Attacks on Speech Recognition and Voice Identification Systems</span></strong></a><span>. S&amp;P, 2021.</span></li><li><span>Jin W, Murali S, Zhu H, et al. </span><a href='./papers/4e/Periscope A Keystroke Inference Attack Using Human Coupled Electromagnetic Emanations.pdf'><strong><span>Periscope: A Keystroke Inference Attack Using Human Coupled Electromagnetic Emanations</span></strong></a><span>. CCS, 2021.</span></li><li><span>Sun J and Cao Y. </span><a href='./papers/4e/Towards Robust LiDAR-based Perception in Autonomous Driving General Black-box Adversarial Sensor Attack and Countermeasures.pdf'><strong><span>Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures</span></strong></a><span>. Security, 2020.</span></li><li><span>Zhao Y, Zhu H, Liang R, et al. </span><a href='./papers/4e/Seeing isn&#39;t Believing Towards More Robust Adversarial Attack Against Real World Object Detectors.pdf'><strong><span>Seeing isn&#39;t Believing: Towards More Robust Adversarial Attack Against Real World Object Detectors</span></strong></a><span>. CCS, 2019.</span></li><li><span>Genkin D, Pattani M, Schuster R, et al. </span><a href='./papers/4e/Synesthesia Detecting Screen Content via Remote Acoustic Side Channels.pdf'><strong><span>Synesthesia: Detecting Screen Content via Remote Acoustic Side Channels</span></strong></a><span>. S&amp;P, 2019</span></li><li><span>Cao Y, Xiao C, Cyr B, et al. </span><a href='./papers/4e/Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving.pdf'><strong><span>Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving</span></strong></a><span>. CCS, 2019.</span></li></ul><h2><a name="5-网络空间治理" class="md-header-anchor"></a><span>5. 网络空间治理</span></h2><h3><a name="专题-a法律与伦理请自主选择阅读材料）" class="md-header-anchor"></a><span>专题 a：法律与伦理（请自主选择阅读材料）</span></h3><h3><a name="专题-b社会工程学请自主选择阅读材料）" class="md-header-anchor"></a><span>专题 b：社会工程学（请自主选择阅读材料）</span></h3><hr /></div>
+</body>
+</html>
